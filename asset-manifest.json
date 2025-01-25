@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Instachef/static/css/main.816c900e.css",
-    "main.js": "/Instachef/static/js/main.2bf0ed54.js",
+    "main.js": "/Instachef/static/js/main.ab2ea81c.js",
     "static/js/488.4903589e.chunk.js": "/Instachef/static/js/488.4903589e.chunk.js",
     "static/media/fa-solid-900.ttf": "/Instachef/static/media/fa-solid-900.ad1782c70927ebc5bc87.ttf",
     "static/media/fa-brands-400.ttf": "/Instachef/static/media/fa-brands-400.26b80c8830bebf340211.ttf",
@@ -18,11 +18,11 @@
     "static/media/slick.woff": "/Instachef/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Instachef/index.html",
     "main.816c900e.css.map": "/Instachef/static/css/main.816c900e.css.map",
-    "main.2bf0ed54.js.map": "/Instachef/static/js/main.2bf0ed54.js.map",
+    "main.ab2ea81c.js.map": "/Instachef/static/js/main.ab2ea81c.js.map",
     "488.4903589e.chunk.js.map": "/Instachef/static/js/488.4903589e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.816c900e.css",
-    "static/js/main.2bf0ed54.js"
+    "static/js/main.ab2ea81c.js"
   ]
 }
