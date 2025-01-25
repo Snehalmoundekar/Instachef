@@ -45,7 +45,7 @@ const Home = () => {
     <>
       <div className="video-container">
         <video className="home-video" autoPlay muted loop>
-          <source src="/Instachef/assets/Banner_Video.mp4" type="video/mp4" />
+          <source src="./instachef/assets/Banner_Video.mp4" type="video/mp4" />
         </video>
       </div>
 
