@@ -15,7 +15,7 @@ const FavoriteRecipes = () => {
   if (favorites.length === 0) {
     return (
       <div className="no-data">
-        <img src="/assets/No-Found.png" alt="No recipes" />
+        <img src="/instachef/assets/No-Found.png" alt="No recipes" />
       </div>
     );
   }

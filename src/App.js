@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { fetchRecipesByIngredient, fetchRecipesByName } from './services/mealdbApi';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
@@ -38,7 +38,8 @@ const App = () => {
       <div className="app">
         <Navbar onSearch={handleSearch} />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Navigate to="/instachef" replace />} />
+          <Route path="/instachef" element={<Home />} />
           <Route path="/recipesCard" element={<RecipeCard />} />
           <Route path="/categories" element={<Categories />} />
           <Route path="/help" element={<Help />} />

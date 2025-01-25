@@ -18,7 +18,7 @@ const Footer = () => {
                         <li><Link to="/recipesCard">Recipes</Link></li>
                         <li><Link to="/categories">Categories</Link></li>
                         <li><Link to="/favorites">Favorite</Link></li>
-                        <li><Link to="/"><img src="/assets/fried-rice.gif" alt="Logo" style={{width:"100px",height:"100px"}}/></Link></li>
+                        <li><Link to="/"><img src="/instachef/assets/fried-rice.gif" alt="Logo" style={{width:"100px",height:"100px"}}/></Link></li>
                         <li><Link to="/help">Help</Link></li>
                         <li><Link to="/privacy">Privacy Policy</Link></li>
                         <li><Link to="/terms">Terms</Link></li>

@@ -15,7 +15,7 @@ const Navbar = ({ onSearch }) => {
       <div className="container">
         <div className="d-flex align-items-center justify-content-between w-100">
           <Link className="navbar-brand" to="/">
-            <img src="/assets/Instachef_logo-removebg-preview.png" alt="Logo" />
+            <img src="/instachef/assets/Instachef_logo-removebg-preview.png" alt="Logo" />
           </Link>
 
           <div className="d-none d-lg-flex flex-grow-1 justify-content-center mx-3 border-0">

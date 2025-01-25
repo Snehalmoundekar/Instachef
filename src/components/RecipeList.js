@@ -54,7 +54,7 @@ const RecipeList = ({ recipes }) => {
       </div>
       {!recipes || recipes.length === 0 ? (
        <div className="no-data">
-          <img src="/assets/No-Found.png" alt="No recipes"/>
+          <img src="/instachef/assets/No-Found.png" alt="No recipes"/>
       </div>
       ) : null}
       </div>
