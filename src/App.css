@@ -545,7 +545,7 @@ button.search-nav-input:hover {
 
 .categories-container .recipe-grid {
   width: 75%;
-  height: 0%;
+  height: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(226px, 1fr));
   gap: 20px;
