@@ -71,13 +71,13 @@ const fetchCategories = async () => {
 };
 const fetchRecipesByCategory = async (ingredient) => {
   try {
-    const response = await axios.get(`${API_BASE_URL}/filter.php`, {
+      const response = await axios.get(`${API_BASE_URL}/filter.php`, {
       params: { c: ingredient },
     });
-    console.log(`Category API Response for ${ingredient}:`, response.data);
+
     return response.data.meals || [];
   } catch (error) {
-    console.error(`Error fetching recipes by category (${ingredient}):`, error);
+    console.error('Error fetching recipes by ingredient:', error);
     return [];
   }
 };
