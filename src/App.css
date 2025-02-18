@@ -862,6 +862,11 @@ button.search-nav-input:hover {
 }
 
 @media (max-width: 768px) {
+  .navbar-brand img {
+      height: 85px;
+      max-width: 130px;
+      width: 100%;
+  }
   .video-container {
     height: auto;
   }
